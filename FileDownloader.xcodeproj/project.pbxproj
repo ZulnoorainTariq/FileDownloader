@@ -10,9 +10,22 @@
 		69D98CC02D89543D00084986 /* FileDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		69E6DDDD2D96AA03001413B3 /* Exceptions for "FileDownloader" folder in "FileDownloader" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 69D98CBF2D89543D00084986 /* FileDownloader */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		69D98CC22D89543D00084986 /* FileDownloader */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				69E6DDDD2D96AA03001413B3 /* Exceptions for "FileDownloader" folder in "FileDownloader" target */,
+			);
 			path = FileDownloader;
 			sourceTree = "<group>";
 		};
@@ -252,9 +265,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FileDownloader/Preview Content\"";
-				DEVELOPMENT_TEAM = AYJSTYWUPV;
+				DEVELOPMENT_TEAM = 59L77DK8L9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FileDownloader/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs access to your photo library to load and save images.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to your photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -281,9 +297,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FileDownloader/Preview Content\"";
-				DEVELOPMENT_TEAM = AYJSTYWUPV;
+				DEVELOPMENT_TEAM = 59L77DK8L9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FileDownloader/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs access to your photo library to load and save images.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to your photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
